@@ -29,7 +29,7 @@ const Intro = () => {
                       <button id='contactBtn' onClick={() => scrollTo('contact-section')}>Contact Me</button>   
                 </div>
                 <div className="intro-img">
-                    <img src={ avatar }></img>
+                    <img src={ avatar } alt='profile picture'></img>
                 </div>
             </div>       
         </div>

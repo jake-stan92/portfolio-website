@@ -23,7 +23,7 @@ const Header = () => {
         <div className="header darkBG">
             <div className="container">
                 <div className="logo">
-                    <img id="header-logo" src={ logo }></img>
+                    <img id="header-logo" src={ logo } alt='logo'></img>
                 </div>
                 <div className="nav-links">
                     <ul className='links'>
