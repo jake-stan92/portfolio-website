@@ -99,7 +99,6 @@ h4 {
 h5 {
     font-size: var(--h5HeadingSize);
     font-weight: var(--h5HeadingWeight);
-    margin-bottom: .3rem;
 }
 
 p {
@@ -459,6 +458,7 @@ textarea {
 
     .container {
         margin: 0rem;
+        padding: 1rem;
     }
 
     .project {
@@ -502,3 +502,12 @@ textarea {
         font-size: var(--altHeading);
     }
 }
+
+/* dark theme preference */
+@media screen and (prefers-color-scheme: dark) {
+    #contact-form-send-button,
+    #contactBtn {
+        color: black;
+        background-color: white;
+    }
+  }
