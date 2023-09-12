@@ -510,4 +510,8 @@ textarea {
         color: black;
         background-color: white;
     }
+
+    .contact-form {
+        background: white;
+    }
   }
