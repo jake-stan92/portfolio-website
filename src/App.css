@@ -140,8 +140,7 @@ p {
 
 #header-logo {
     width: 50px;
-    height: auto;
-    aspect-ratio: auto;
+    height: 55px;
 }
 
 .header {
