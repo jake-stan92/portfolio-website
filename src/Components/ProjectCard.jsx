@@ -25,7 +25,10 @@ const ProjectCard = (props) => {
                     <ul className="project-options">
                         {props.projectHead.map((x, index) => {
                             return (
-                                <li onClick={() => setText(x.content)} key={index}>{x.title}</li>
+                                <li onClick={() => setText(x.content)} key={index}>
+                                    <p>{x.title}</p>
+                                    <p className='project-card-arrow hide'>&rarr;</p>
+                                </li>
                             )
                         })}
                     </ul>

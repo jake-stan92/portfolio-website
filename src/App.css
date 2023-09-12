@@ -132,9 +132,9 @@ p {
     padding-left: 1rem;
 }
 
-/* .hide {
-    visibility: hidden;
-} */
+.hide {
+    display: none;
+}
 
 /* HEADER WORK */
 
@@ -298,7 +298,6 @@ li:hover {
 }
 
 .project-options li {
-    padding: 0.5rem;
     border: 0;
     display: flex;
     justify-content: center;
@@ -488,6 +487,16 @@ textarea {
     .project-options {
         flex-direction: column;
         padding: 0.25rem;
+    }
+
+    .project-options li {
+        box-shadow: 0 4px 6px -6px #222;
+        justify-content: space-between;
+        padding: .1rem 1rem;
+    }
+
+    .project-card-arrow {
+        display: flex;
     }
 
     .project-options li:not(:last-child) {
