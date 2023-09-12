@@ -24,9 +24,11 @@ const Intro = () => {
         <div className="container">
             <div className="intro-content">
                 <div className="intro-text">
-                    <h5>Hi! Im Jake, a <h1>Web Developer</h1> from the UK. I take great pride in producing
+                    <h5>Hi! Im Jake, a </h5>
+                    <h1>Web Developer</h1>
+                    <h5>from the UK. I take great pride in producing
                     high performing web applications.</h5> 
-                      <button id='contactBtn' onClick={() => scrollTo('contact-section')}>Contact Me</button>   
+                    <button id='contactBtn' onClick={() => scrollTo('contact-section')}>Contact Me</button>   
                 </div>
                 <div className="intro-img">
                     <img src={ avatar } alt='profile picture'></img>

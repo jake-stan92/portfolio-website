@@ -211,12 +211,19 @@ li:hover {
     display: grid;
     grid-template-columns: 50% 50%;
     place-items: center;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .intro-text {
     display: grid;
-    gap: 2rem;
+    gap: 1rem;
+}
+
+.intro-img img {
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 /* project card work */
@@ -446,6 +453,11 @@ textarea {
         font-size: var(--h1HeaderSize);
     }
 
+    .intro-img img {
+        width: 15rem;
+        height: 15rem;
+    }
+
     #contact-form,
     .intro-content {
         grid-template-columns: auto;
@@ -521,7 +533,8 @@ textarea {
     }
 
     .contact-form,
-    input {
+    input,
+    textarea {
         background: white;
     }
   }
