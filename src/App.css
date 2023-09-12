@@ -220,8 +220,8 @@ li:hover {
 }
 
 .intro-img img {
-    width: 20rem;
-    height: 20rem;
+    width: 32rem;
+    height: 32rem;
     object-fit: cover;
     border-radius: 50%;
 }

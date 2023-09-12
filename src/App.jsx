@@ -4,10 +4,10 @@ import Header from './Components/Header'
 import ProjectCard from './Components/ProjectCard'
 import ContactForm from './Components/ContactForm'
 // import projectImg from './assets/projectIMG.png'
-import githubLogo from './assets/githubLogo.png';
-import playIcon from './assets/playIcon.png'
-import stravaPic from './assets/StravaJSscreenshot.png'
-import growITPic from './assets/growITscreenshot.png'
+import githubLogo from './assets/githubLogo.avif';
+import playIcon from './assets/playIcon.avif';
+import stravaPic from './assets/StravaJSscreenshot.avif'
+import growITPic from './assets/growITscreenshot.avif'
 import About from './Components/About'
 import Intro from './Components/Intro'
 import Footer from './Components/Footer'

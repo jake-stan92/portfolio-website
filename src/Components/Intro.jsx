@@ -1,4 +1,4 @@
-import avatar from '../assets/avatar.png'
+import avatar from '../assets/avatar.avif'
 
 const Intro = () => {
 
@@ -24,7 +24,7 @@ const Intro = () => {
         <div className="container">
             <div className="intro-content">
                 <div className="intro-text">
-                    <h5>Hi! Im Jake, a </h5>
+                    <h4>Hi! Im Jake, a </h4>
                     <h1>Web Developer</h1>
                     <h5>from the UK. I take great pride in producing
                     high performing web applications.</h5> 
