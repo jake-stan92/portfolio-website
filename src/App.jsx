@@ -4,8 +4,8 @@ import Header from './Components/Header'
 import ProjectCard from './Components/ProjectCard'
 import ContactForm from './Components/ContactForm'
 // import projectImg from './assets/projectIMG.png'
-import githubLogo from './assets/githubLogo.avif';
-import playIcon from './assets/playIcon.avif';
+import githubLogo from './assets/githubLogo2.avif';
+import playIcon from './assets/playIcon2.avif';
 import stravaPic from './assets/StravaJSscreenshot.avif'
 import growITPic from './assets/growITscreenshot.avif'
 import About from './Components/About'
