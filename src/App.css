@@ -520,7 +520,8 @@ textarea {
         background-color: white;
     }
 
-    .contact-form {
+    .contact-form,
+    input {
         background: white;
     }
   }
