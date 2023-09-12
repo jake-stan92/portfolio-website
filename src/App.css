@@ -272,7 +272,7 @@ li:hover {
 
 .project-card-img img {
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -357,6 +357,12 @@ li:hover {
 #cardText {
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+#github-logo,
+#play-icon {
+    height: 40px;
+    width: 40px;
 }
 
 /* contact form */
