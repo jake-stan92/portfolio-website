@@ -1,6 +1,12 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
 
+import githubLogoLarge from '../assets/githublogolarge.avif';
+import githubLogoSmall from '../assets/githublogosmall.avif';
+
+import playIconLarge from '../assets/playiconlarge.avif';
+import playIconSmall from '../assets/playiconsmall.avif';
+
 const ProjectCard = (props) => {
 
     const defaultDescription = props.defaultDescription;
@@ -13,12 +19,33 @@ const ProjectCard = (props) => {
                     <h3>{props.title}</h3>
                 </div>
                 <div className="project-links">
-                    <a href={ props.githubLink }><img id='github-logo' src={ props.github } alt='github logo'></img></a>
-                    <a href={ props.liveDemoLink }><img id='play-icon' src={ props.liveDemo } alt='live demo icon'></img></a>
+                    <a href={ props.githubLink }><img id='github-logo' 
+                                                    src={ githubLogoLarge } 
+                                                    alt='github logo'
+                                                    srcSet={`
+                                                        ${ githubLogoLarge } 2x,
+                                                        ${ githubLogoSmall } 1x
+                                                        `}/>
+                                                    </a>
+                    <a href={ props.liveDemoLink }><img id='play-icon' 
+                                                        src={ playIconLarge } 
+                                                        alt='live demo icon'
+                                                        srcSet={`
+                                                            ${ playIconLarge } 2x,
+                                                            ${ playIconSmall } 1x
+                                                            `}/>
+                                                        </a>
                 </div>
             </div>
             <div className="project-card-img">
-                <img src={ props.image } alt='project screenshot'></img>
+                <img
+                    alt='Project Image'
+                    src={ props.largeProjectImage }
+                    srcSet={`
+                            ${props.largeProjectImage} 2x,
+                            ${props.smallProjectImage} 1x
+                        `}
+                    />  
             </div>
             <div className="project-card-right-side whiteBG">
                 <div className="right-side-options">

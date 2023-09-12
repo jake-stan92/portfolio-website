@@ -4,10 +4,13 @@ import Header from './Components/Header'
 import ProjectCard from './Components/ProjectCard'
 import ContactForm from './Components/ContactForm'
 // import projectImg from './assets/projectIMG.png'
-import githubLogo from './assets/githubLogo2.avif';
-import playIcon from './assets/playIcon2.avif';
-import stravaPic from './assets/StravaJSscreenshot.avif'
-import growITPic from './assets/growITscreenshot.avif'
+
+import stravaPicLarge from './assets/stravajsscreenshotlarge.avif'
+import stravaPicSmall from './assets/stravajsscreenshotsmall.avif'
+
+import growITPicLarge from './assets/growitscreenshotlarge.avif'
+import growITPicSmall from './assets/growitscreenshotsmall.avif'
+
 import About from './Components/About'
 import Intro from './Components/Intro'
 import Footer from './Components/Footer'
@@ -33,10 +36,11 @@ function App() {
       <div className="card lightBG">
         <ProjectCard 
           title='StravaJS'
-          image={ stravaPic }
-          github={ githubLogo }
+          largeProjectImage= { stravaPicLarge }
+          smallProjectImage= { stravaPicSmall }
+          // github={ githubLogo }
           githubLink='link'
-          liveDemo={ playIcon }
+          // liveDemo={ playIcon }
           liveDemoLink='link'
           defaultDescription="StravaJS is a full-stack application that uses Strava's API to 
                               collect data on users running entries. Data is then presented in a graph 
@@ -61,10 +65,11 @@ function App() {
       <div className="card darkBG">
         <ProjectCard 
           title='GrowIT'
-          image={growITPic}
-          github={ githubLogo }
+          largeProjectImage= { growITPicLarge }
+          smallProjectImage= { growITPicSmall }
+          // github={ githubLogo }
           githubLink='link'
-          liveDemo={ playIcon }
+          // liveDemo={ playIcon }
           liveDemoLink='https://verdant-sprite-5e95a5.netlify.app/'
           defaultDescription='The owner of GrowIT contacted me to create a landing page for their new business.
                               they had an existing site but it was very slow and poorly optimised. Through consultation

@@ -1,4 +1,6 @@
-import avatar from '../assets/avatar.avif'
+import avatarLarge from '../assets/avatarlarge.avif'
+import avatarSmall from '../assets/avatarsmall.avif'
+
 
 const Intro = () => {
 
@@ -31,7 +33,13 @@ const Intro = () => {
                     <button id='contactBtn' onClick={() => scrollTo('contact-section')}>Contact Me</button>   
                 </div>
                 <div className="intro-img">
-                    <img src={ avatar } alt='profile picture'></img>
+                    <img
+                        alt='Profile Picture'
+                        src={ avatarLarge }
+                        srcSet={`
+                        ${ avatarLarge } 2x,
+                        ${ avatarSmall } 1x
+                    `}/>
                 </div>
             </div>       
         </div>
