@@ -41,7 +41,7 @@ const ProjectCard = (props) => {
                 <picture>
                     <source media='(max-width: 475px)' srcSet={ props.smallProjectImage } />
                     <source media='(min-width: 476px)' srcSet={ props.largeProjectImage } />
-                    <img src={ avatarSmall } alt='profile picture' />
+                    <img src={ props.smallProjectImage } alt='project screenshot' />
                 </picture> 
             </div>
             <div className="project-card-right-side whiteBG">
