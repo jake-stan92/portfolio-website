@@ -19,7 +19,7 @@ const ProjectCard = (props) => {
                     <h3>{props.title}</h3>
                 </div>
                 <div className="project-links">
-                    <a href={ props.githubLink }><img id='github-logo' 
+                    <a href={ props.githubLink } target="_blank" rel="noopener noreferrer"><img id='github-logo' 
                                                     src={ githubLogoLarge } 
                                                     alt='github logo'
                                                     srcSet={`
@@ -27,7 +27,7 @@ const ProjectCard = (props) => {
                                                         ${ githubLogoSmall } 1x
                                                         `}/>
                                                     </a>
-                    <a href={ props.liveDemoLink }><img id='play-icon' 
+                    <a href={ props.liveDemoLink } target="_blank" rel="noopener noreferrer"><img id='play-icon' 
                                                         src={ playIconLarge } 
                                                         alt='live demo icon'
                                                         srcSet={`

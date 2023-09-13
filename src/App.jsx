@@ -68,7 +68,7 @@ function App() {
           largeProjectImage= { growITPicLarge }
           smallProjectImage= { growITPicSmall }
           // github={ githubLogo }
-          githubLink='link'
+          githubLink='https://github.com/jake-stan92/grow-it'
           // liveDemo={ playIcon }
           liveDemoLink='https://verdant-sprite-5e95a5.netlify.app/'
           defaultDescription='The owner of GrowIT contacted me to create a landing page for their new business.
