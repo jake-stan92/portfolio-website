@@ -40,11 +40,11 @@ const Intro = () => {
                         ${ avatarLarge } 2x,
                         ${ avatarSmall } 1x
                     `}/> */}
-                    <img
-                        src={ avatarLarge }
-                        srcSet={`${ avatarSmall } 250w, ${ avatarLarge } 700w`}
-                        sizes="(max-width: 475px) 250w, 700px"
-                    />
+                    <picture>
+                        <source media='(max-width: 475px)' srcSet={ avatarSmall } />
+                        <source media='(min-width: 476px)' srcSet={ avatarLarge } />
+                        <img src={ avatarSmall } alt='profile picture' />
+                    </picture>
                 </div>
             </div>       
         </div>

@@ -208,9 +208,7 @@ li:hover {
 
 /* Intro Work */
 .intro-content {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    place-items: center;
+    display: flex;
     gap: 3rem;
 }
 
@@ -453,7 +451,7 @@ textarea {
 }
 
 /* contact form mobile */
-@media (width < 475px) {
+@media (width < 900px) {
 
     .intro-text h1 {
         font-size: var(--h1HeaderSize);
@@ -464,8 +462,12 @@ textarea {
         height: 15rem;
     }
 
-    #contact-form,
     .intro-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact-form {
         grid-template-columns: auto;
     }
 
@@ -527,6 +529,20 @@ textarea {
 
     .header h5 {
         font-size: var(--altHeading);
+    }
+}
+
+@media (width > 500px) {
+    .intro-img img {
+        width: 20rem;
+        height: 20rem;
+    }
+}
+
+@media (width > 900px) {
+    .intro-img img {
+        width: 30rem;
+        height: 30rem;
     }
 }
 
