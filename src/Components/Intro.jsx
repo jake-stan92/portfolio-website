@@ -33,18 +33,25 @@ const Intro = () => {
                     <button id='contactBtn' onClick={() => scrollTo('contact-section')}>Contact Me</button>   
                 </div>
                 <div className="intro-img">
-                    <img
+                    {/* <img
                         alt='Profile Picture'
                         src={ avatarLarge }
                         srcSet={`
                         ${ avatarLarge } 2x,
                         ${ avatarSmall } 1x
-                    `}/>
+                    `}/> */}
+                    <img
+                        src={ avatarLarge }
+                        srcSet={`${ avatarSmall } 250w, ${ avatarLarge } 700w`}
+                        sizes="(max-width: 475px) 250w, 700px"
+                    />
                 </div>
             </div>       
         </div>
     </div>
 )
 }
+
+// need to user diff pics for diff screen sizes... currently passing desktop not mobile in lighthouse
 
 export default Intro;
