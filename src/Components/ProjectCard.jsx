@@ -38,14 +38,11 @@ const ProjectCard = (props) => {
                 </div>
             </div>
             <div className="project-card-img">
-                <img
-                    alt='Project Image'
-                    src={ props.largeProjectImage }
-                    srcSet={`
-                            ${props.largeProjectImage} 2x,
-                            ${props.smallProjectImage} 1x
-                        `}
-                    />  
+                <picture>
+                    <source media='(max-width: 475px)' srcSet={ props.smallProjectImage } />
+                    <source media='(min-width: 476px)' srcSet={ props.largeProjectImage } />
+                    <img src={ avatarSmall } alt='profile picture' />
+                </picture> 
             </div>
             <div className="project-card-right-side whiteBG">
                 <div className="right-side-options">
