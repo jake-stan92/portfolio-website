@@ -39,9 +39,9 @@ function App() {
           largeProjectImage= { stravaPicLarge }
           smallProjectImage= { stravaPicSmall }
           // github={ githubLogo }
-          githubLink='link'
+          githubLink='https://github.com/jake-stan92/StravaJS-FullStack'
           // liveDemo={ playIcon }
-          liveDemoLink='link'
+          liveDemoLink='https://stravajs.onrender.com/'
           defaultDescription="StravaJS is a full-stack application that uses Strava's API to 
                               collect data on users running entries. Data is then presented in a graph 
                               for ease of viewing. Users can currently track their weekly distance covered (km)."
