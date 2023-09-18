@@ -7,6 +7,8 @@ import githubLogoSmall from '../assets/githublogosmall.avif';
 import playIconLarge from '../assets/playiconlarge.avif';
 import playIconSmall from '../assets/playiconsmall.avif';
 
+import linkIcon from '../assets/linkIcon.png'
+
 const ProjectCard = (props) => {
 
     const defaultDescription = props.defaultDescription;
@@ -31,8 +33,8 @@ const ProjectCard = (props) => {
                                                         src={ playIconLarge } 
                                                         alt='live demo icon'
                                                         srcSet={`
-                                                            ${ playIconLarge } 2x,
-                                                            ${ playIconSmall } 1x
+                                                            ${ linkIcon } 2x,
+                                                            ${ linkIcon } 1x
                                                             `}/>
                                                         </a>
                 </div>
