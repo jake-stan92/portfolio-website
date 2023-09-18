@@ -19,6 +19,7 @@ function App() {
 
   return (
     <>
+      <div id="home-section"></div>
       <Header/>
       <div className="darkBG">
         <Intro/>
@@ -28,7 +29,7 @@ function App() {
       </div>
       <div id='project-section'>
           <div className="lightBG">
-            <div className="container">
+            <div className="container" id='projects-header'>
               <h2 className=''>PROJECTS</h2>
             </div>
           </div>

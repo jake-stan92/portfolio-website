@@ -59,16 +59,16 @@ const Header = () => {
             <div className="container">
                 <div className="logo">
                     {/* <img id="header-logo" src={`${logo.src}`} alt={ logo.alt } /> */}
-                    <img id="header-logo"
+                    <img onClick={() => scrollTo('home-section')} id="header-logo"
                             src={isScrolled ? logoBlack: logoWhite}
                             alt="Compant Logo"
                         />
                 </div>
                 <div className="nav-links">
                     <ul className='links'>
-                        <li onClick={() => scrollTo('about-section')} ><h5>About</h5></li>
-                        <li onClick={() => scrollTo('project-section')} ><h5>Projects</h5></li>
-                        <li onClick={() => scrollTo('contact-section')} ><h5>Contact</h5></li>
+                        <li onClick={() => scrollTo('about-section')} ><h5>ABOUT</h5></li>
+                        <li onClick={() => scrollTo('project-section')} ><h5>PROJECT</h5></li>
+                        <li onClick={() => scrollTo('contact-section')} ><h5>CONTACT</h5></li>
                     </ul>
                 </div>
             </div>
