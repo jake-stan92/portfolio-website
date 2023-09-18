@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rufina:wght@400;700&display=swap');
 
 :root {
     /* color setup  */
@@ -56,7 +56,8 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Roboto Mono', monospace;
+    /* font-family: 'Roboto Mono', monospace; */
+    font-family: montser;
 }
 
 #root {
@@ -104,6 +105,8 @@ h5 {
 p {
     font-size: var(--smallTextSize);
     font-weight: var(--smallTextWeight);
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Rufina', serif; */
 }
 
 .darkBG {
@@ -139,8 +142,8 @@ p {
 /* HEADER WORK */
 
 #header-logo {
-    width: 50px;
-    height: 55px;
+    width: 100px;
+    height: 100px;
 }
 
 .header {
