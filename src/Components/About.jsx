@@ -3,21 +3,16 @@ const About = () => {
         <div className="whiteBG">
             <div className="container">
               <h2 className=''>ABOUT</h2>
-                <p className=''>Lorem ipsum, or lipsum as it is 
-                      sometimes known, is dummy text used in laying out 
-                      print, graphic or web designs Lorem ipsum, or lipsum as it is 
-                      sometimes known, is dummy text used in laying out 
-                      print, graphic or web designs Lorem ipsum, or lipsum as it is 
-                      sometimes known, is dummy text used in laying out 
-                      print, graphic or web designs Lorem ipsum, or lipsum as it is 
-                      sometimes known, is dummy text used in laying out 
-                      print, graphic or web designs Lorem ipsum, or lipsum as it is 
-                      sometimes known, is dummy text used in laying out 
-                      print, graphic or web designs Lorem ipsum, or lipsum as it is 
-                      sometimes known, is dummy text used in laying out 
-                      print, graphic or web designsLorem ipsum, or lipsum as it is 
-                      sometimes known, is dummy text used in laying out 
-                      print, graphic or web designs</p>
+                <p className=''>
+                  Having ignited my passion for computer programming in early 2020, I have since been on a 
+                  journey to hone my skills as a web developer. Since completing various courses such as CS50 from 
+                  Harvard University and The Odin Project, I have created and develop numerous 
+                  websites and applications. 
+
+                  With experience using technologies such as NodeJS, ExpressJS, React as well as the bread 
+                  and butter, HTML, CSS and Javascript - I strive to produce high performing, efficient and 
+                  user friendly applications. 
+                </p>
             </div>
         </div>
     )
