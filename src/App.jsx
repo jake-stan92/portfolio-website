@@ -11,6 +11,9 @@ import stravaPicSmall from './assets/stravajsscreenshotsmall.avif'
 import growITPicLarge from './assets/growitscreenshotlarge.avif'
 import growITPicSmall from './assets/growitscreenshotsmall.avif'
 
+import tzPicLarge from './assets/tzscreenshotlarge.avif';
+import tzPicSmall from './assets/tzscreenshotsmall.avif';
+
 import About from './Components/About'
 import Intro from './Components/Intro'
 import Footer from './Components/Footer'
@@ -73,7 +76,7 @@ function App() {
           // liveDemo={ playIcon }
           liveDemoLink='https://verdant-sprite-5e95a5.netlify.app/'
           defaultDescription='The owner of GrowIT contacted me to create a landing page for their new business.
-                              they had an existing site but it was very slow and poorly optimised. Through consultation
+                              They had an existing site but it was very slow and poorly optimised. Through consultation
                               we were able to agree on an updated design for the website.'
           projectHead = {[
             {title: 'Description',
@@ -87,6 +90,30 @@ function App() {
             {title: 'Testimonial',
             content: `"Jake was able to update my existing website and increase its speed massively.
                       He understood my wants and needs and produced the work accordingly." `},
+          ]}/>
+      </div>
+      <div className="card lightBG">
+        <ProjectCard 
+          title='TimeZone'
+          largeProjectImage= { tzPicLarge }
+          smallProjectImage= { tzPicSmall }
+          // github={ githubLogo }
+          githubLink='https://github.com/jake-stan92/timezone'
+          // liveDemo={ playIcon }
+          liveDemoLink='https://github.com/jake-stan92/timezone'
+          defaultDescription="Timezone is an application that allows users to calculate times based on a timezone of their choice.
+                              The app was designed for a client who had customers around the world and wanted a faster, more efficeint way of 
+                              coordinating meetings online."
+          projectHead = {[
+            {title: 'Description',
+            content: `Timezone is an application that allows users to calculate times based on a timezone of their choice.
+                      The app was designed for a client who had customers around the world and wanted a faster, more efficeint way of 
+                      coordinating meetings online.`},
+            {title: 'Tech Used',
+            content: `Timezone is written in python and utilises various built in libraries such as PyTz and datetime. Tkinter was used to create
+                      the graphical user interface (GUI). Timezone was converted into an executable for the client using pyinstaller.`},
+            {title: 'Testimonial',
+            content: `"TZ greatly improved my productivity and decreased the amount of incorrectly scheduled meetings."`},
           ]}/>
       </div>
       <div id='contact-section'></div>
