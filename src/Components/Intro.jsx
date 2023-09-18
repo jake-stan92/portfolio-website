@@ -27,7 +27,7 @@ const Intro = () => {
             <div className="intro-content">
                 <div className="intro-text">
                     <h4>Hi! Im Jake, a </h4>
-                    <h1>Web Developer</h1>
+                    <h1>WEB DEVELOPER</h1>
                     <h5>from the UK. I take great pride in producing
                     high performing web applications.</h5> 
                     <button id='contactBtn' onClick={() => scrollTo('contact-section')}>Contact Me</button>   

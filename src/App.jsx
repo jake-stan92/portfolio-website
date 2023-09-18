@@ -29,7 +29,7 @@ function App() {
       <div id='project-section'>
           <div className="lightBG">
             <div className="container">
-              <h2 className=''>Projects</h2>
+              <h2 className=''>PROJECTS</h2>
             </div>
           </div>
       </div>
