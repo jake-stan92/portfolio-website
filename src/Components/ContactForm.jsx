@@ -2,8 +2,8 @@ const ContactForm = () => {
     return (
         <div className="contact-form container">
                 <h3>CONTACT</h3>
-                <form id="contact-form" name="contact" method="POST" data-netlify="true">
-                    <input type="hidden" name="contact" value="contact"/>
+                <form id="contact-form" name="contact" method="POST">
+                    <input type="hidden" name="form-name" value="contact"/>
                     <input name="first-name-input" type="text" placeholder="FIRST NAME *" required></input>
                     <input name="last-name-input" type="text" placeholder="LAST NAME *" required></input>
                     <input name="email-input" type="email" placeholder="EMAIL *" required></input>
